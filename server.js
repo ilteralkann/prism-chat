@@ -4,7 +4,6 @@ const express = require('express');
 const socketio = require('socket.io');
 const formatMessage = require('./utils/messages');
 const prefix = '/';
-const destination = "https://google.com"
 
 const {
   userJoin,
