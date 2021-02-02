@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "SocketIO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ilter",
+  "license": "ISC",
+  "dependencies": {
+    "emoji": "^0.3.2",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "socket.io": "^3.1.0"
+  }
+}
